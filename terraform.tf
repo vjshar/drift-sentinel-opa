@@ -1,7 +1,7 @@
 terraform {
   cloud {
     workspaces {
-      name = "learn-terraform-drift-and-opa"
+      name = "drift-sentinel-opa"
     }
   }
 
@@ -12,5 +12,5 @@ terraform {
     }
   }
 
-  required_version = "~> 1.4.0"
+  required_version = ">= 1.4.0"
 }
